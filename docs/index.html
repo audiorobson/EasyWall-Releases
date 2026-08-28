@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Download Easy Wall Multiscreen</title>
+  <script>
+    var REPO = "audiorobson/EasyWall-Releases";
+    var params = new URLSearchParams(location.search);
+    var file = params.get("file") === "portable" ? "EasyWall-Portable.exe" : "EasyWall-Setup.exe";
+    var url = "https://github.com/" + REPO + "/releases/latest/download/" + file;
+    location.replace(url);
+  </script>
+</head>
+<body>
+  <p>A iniciar o download… Se nao comecar, <a id="fallback" href="https://github.com/audiorobson/EasyWall-Releases/releases/latest/download/EasyWall-Setup.exe">clique aqui</a>.</p>
+</body>
+</html>

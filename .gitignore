@@ -1,0 +1,3 @@
+﻿# Binarios nao entram no git — so GitHub Releases
+*.exe
+*.blockmap
