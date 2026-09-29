@@ -12,8 +12,14 @@ https://github.com/audiorobson/EasyWall-Releases/releases/latest/download/EasyWa
 **Portable (ultima versao):**
 https://github.com/audiorobson/EasyWall-Releases/releases/latest/download/EasyWall-Portable.exe
 
+**Cliente Control Room 0.3.0 (estacao Windows):**
+https://github.com/audiorobson/EasyWall-Releases/releases/latest/download/Easywall-Client-Setup.exe
+
 Pagina curta (redireciona para o Setup):
 https://audiorobson.github.io/EasyWall-Releases/
+
+Cliente pela pagina curta:
+https://audiorobson.github.io/EasyWall-Releases/?file=client
 
 Versao fixa 1.9.6:
 https://github.com/audiorobson/EasyWall-Releases/releases/download/v1.9.6/EasyWall-v1.9.6-Setup.exe

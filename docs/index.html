@@ -7,7 +7,8 @@
   <script>
     var REPO = "audiorobson/EasyWall-Releases";
     var params = new URLSearchParams(location.search);
-    var file = params.get("file") === "portable" ? "EasyWall-Portable.exe" : "EasyWall-Setup.exe";
+    var requested = params.get("file");
+    var file = requested === "portable" ? "EasyWall-Portable.exe" : requested === "client" ? "Easywall-Client-Setup.exe" : "EasyWall-Setup.exe";
     var url = "https://github.com/" + REPO + "/releases/latest/download/" + file;
     location.replace(url);
   </script>
